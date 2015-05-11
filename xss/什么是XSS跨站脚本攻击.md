@@ -54,7 +54,7 @@ XSS攻击方法有：
 </html>
 ```
 
-上面的代码是把论坛的数据库备份为shit.asp，留言板存在跨站点如下：http://127.0.0.1/bbsxp/page2.asp?username=
+上面的代码是把论坛的数据库备份为shit.asp，留言板存在跨站点如下：`http://127.0.0.1/bbsxp/page2.asp?username=`
 
 我们构造备份跨站语句如下：
 

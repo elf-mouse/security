@@ -12,7 +12,7 @@ mysql_query("SELECT * FROM users WHERE name='{$name}'");
 
 很明显最后数据库执行的命令是：
 
-```php
+```sql
 SELECT * FROM users WHERE name=ilia; DELETE FROM users
 ```
 
